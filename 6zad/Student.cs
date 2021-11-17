@@ -38,6 +38,7 @@ namespace _6zad
             set { if (value >= 2.00 && value <= 6.00) this.dBel = value; else { Console.WriteLine("Invalid grade"); } }
             get { return this.dBel; }
         }
+
         public double DForeign
         {
             set { if (value >= 2.00 && value <= 6.00) this.dForeign = value; else { Console.WriteLine("Invalid grade"); } }
