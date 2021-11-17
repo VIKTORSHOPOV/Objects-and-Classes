@@ -26,15 +26,16 @@ namespace _6zad
             Console.WriteLine("Biology:");
             student.DBio = double.Parse(Console.ReadLine());
             student.Average = (student.DBel + student.DMath + student.DPhys + student.DChem + student.DBio + student.DForeign) / 6;
-            Console.WriteLine("Name " + student.Name);
-            Console.WriteLine("Class " + student.Clas);
-            Console.WriteLine("ID " + student.Id);
-            Console.WriteLine("Bel " + student.DBel);
-            Console.WriteLine("Foreign " + student.DForeign);
-            Console.WriteLine("Math " + student.DMath);
-            Console.WriteLine("Physics " + student.DPhys);
-            Console.WriteLine("Chemistry " + student.DChem);
-            Console.WriteLine("Biology " + student.DBio);
+            Console.WriteLine("==============");
+            Console.WriteLine("Name: " + student.Name);
+            Console.WriteLine("Class: " + student.Clas);
+            Console.WriteLine("ID: " + student.Id);
+            Console.WriteLine("Bel: " + student.DBel);
+            Console.WriteLine("Foreign: " + student.DForeign);
+            Console.WriteLine("Math: " + student.DMath);
+            Console.WriteLine("Physics: " + student.DPhys);
+            Console.WriteLine("Chemistry: " + student.DChem);
+            Console.WriteLine("Biology: " + student.DBio);
             Console.WriteLine($"{student.Average:F2}");
 
         }
