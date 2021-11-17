@@ -48,5 +48,26 @@ namespace _6zad
             set { if (value >= 2.00 && value <= 6.00) this.dMath = value; else { Console.WriteLine("Invalid grade"); } }
             get { return this.dMath; }
         }
+        public double DPhys
+        {
+            set { if (value >= 2.00 && value <= 6.00) this.dPhys = value; else { Console.WriteLine("Invalid grade"); } }
+            get { return this.dPhys; }
+        }
+        public double DChem
+        {
+            set { if (value >= 2.00 && value <= 6.00) this.dChem = value; else { Console.WriteLine("Invalid grade"); } }
+            get { return this.dChem; }
+        }
+        public double DBio
+        {
+            set { if (value >= 2.00 && value <= 6.00) this.dBio = value; else { Console.WriteLine("Invalid grade"); } }
+            get { return this.dBio; }
+        }
+        public double Average
+        {
+            set { if (value >= 2.00 && value <= 6.00) this.average = value; else { Console.WriteLine("Invalid grade"); } }
+            get { return this.average; }
+        }
+
     }
 }
