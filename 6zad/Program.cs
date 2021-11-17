@@ -29,12 +29,12 @@ namespace _6zad
             Console.WriteLine("Name " + student.Name);
             Console.WriteLine("Class " + student.Clas);
             Console.WriteLine("ID " + student.Id);
-            Console.WriteLine("BEL " + student.DBel);
-            Console.WriteLine("Ezik " + student.DForeign);
-            Console.WriteLine("Matematika " + student.DMath);
-            Console.WriteLine("Fizika " + student.DPhys);
-            Console.WriteLine("Himiq " + student.DChem);
-            Console.WriteLine("Biologiq " + student.DBio);
+            Console.WriteLine("Bel " + student.DBel);
+            Console.WriteLine("Foreign " + student.DForeign);
+            Console.WriteLine("Math " + student.DMath);
+            Console.WriteLine("Physics " + student.DPhys);
+            Console.WriteLine("Chemistry " + student.DChem);
+            Console.WriteLine("Biology " + student.DBio);
             Console.WriteLine($"{student.Average:F2}");
 
         }
