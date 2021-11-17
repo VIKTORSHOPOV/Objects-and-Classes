@@ -8,9 +8,30 @@ namespace _1zad
 {
     class Car
     {
-        public string brand;
-        public string model;
-        public int engineVolume;
-        public int yearProduced;
+        private string brand;
+        private string model;
+        private int engineVolume;
+        private int yearProduced;
+        public string Brand
+        {
+            set { this.brand = value; }
+            get { return this.brand; }
+        }
+        public string Model
+        {
+            set { this.model = value; }
+            get { return this.model; }
+        }
+        public int EngineVolume
+        {
+            set { this.engineVolume = value; }
+            get { return this.engineVolume; }
+        }
+        public int YearProduced
+        {
+            set { this.yearProduced = value; }
+            get { return this.yearProduced; }
+        }
+
     }
 }

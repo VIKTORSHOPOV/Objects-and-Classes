@@ -7,11 +7,11 @@ namespace _1zad
         static void Main(string[] args)
         {
             Car myCar = new Car();
-            myCar.brand = "Toyota";
-            myCar.model = "Supra";
-            myCar.engineVolume = 3000;
-            myCar.yearProduced = 2020;
-            Console.Write($"{myCar.brand}, {myCar.model}, {myCar.engineVolume}, {myCar.yearProduced}");
+            myCar.Brand = "Toyota";
+            myCar.Model = "Supra";
+            myCar.EngineVolume = 3000;
+            myCar.YearProduced = 2020;
+            Console.Write($"{myCar.Brand}, {myCar.Model}, {myCar.EngineVolume}, {myCar.YearProduced}");
         }
     }
 }
