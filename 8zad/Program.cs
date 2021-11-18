@@ -6,7 +6,8 @@ namespace _8zad
     {
         static void Main(string[] args)
         {
-            
+            Rectangle shape = new();
+            shape.Name = "New";
         }
     }
 }

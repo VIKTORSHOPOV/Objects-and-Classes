@@ -10,6 +10,8 @@ namespace _8zad
     {
         private double width;
         private double height;
+        
+
         public double Width
         {
             set { this.width = value; }
