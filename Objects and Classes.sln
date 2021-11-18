@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.1School", "3.1School\3.1S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6zad", "6zad\6zad.csproj", "{0761CF28-8D26-413D-B0A9-C85EBB44B8CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7zad", "7zad\7zad.csproj", "{0792F04F-3BF7-471E-A109-BF6923D27657}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7zad", "7zad\7zad.csproj", "{0792F04F-3BF7-471E-A109-BF6923D27657}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8zad", "8zad\8zad.csproj", "{5A33660B-72ED-40A3-AA38-2CE1508979C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8zad", "8zad\8zad.csproj", "{5A33660B-72ED-40A3-AA38-2CE1508979C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9zad", "9zad\9zad.csproj", "{1D5945C0-B807-4C3B-8D9F-F6C0BEFAED9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{5A33660B-72ED-40A3-AA38-2CE1508979C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A33660B-72ED-40A3-AA38-2CE1508979C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A33660B-72ED-40A3-AA38-2CE1508979C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D5945C0-B807-4C3B-8D9F-F6C0BEFAED9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D5945C0-B807-4C3B-8D9F-F6C0BEFAED9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D5945C0-B807-4C3B-8D9F-F6C0BEFAED9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D5945C0-B807-4C3B-8D9F-F6C0BEFAED9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
