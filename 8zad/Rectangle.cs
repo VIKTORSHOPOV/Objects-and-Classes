@@ -8,34 +8,32 @@ namespace _8zad
 {
     class Rectangle
     {
-        private double width;
-        private double height;
+        //private double width;
+        //private double height;
         
 
         public double Width
         {
-            set { this.width = value; }
-            get { return this.width; }
+            get;set;
         }
         public double Height
         {
-            set { this.height = value; }
-            get { return this.height; }
+            get; set;
         }
 
         public void ShowInfo()
         {
-            Console.WriteLine($"width:{width}");
-            Console.WriteLine($"height:{height}");
+            Console.WriteLine($"width: {Width}");
+            Console.WriteLine($"height: {Height}");
         }
 
         public double CalcArea()
         {
-            return width * height;
+            return Width * Height;
         }
         public double CalcPerimeter()
         {
-            return (width + height) * 2;
+            return (Width + Height) * 2;
         }
 
 

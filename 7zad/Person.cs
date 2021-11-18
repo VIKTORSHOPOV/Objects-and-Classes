@@ -17,14 +17,14 @@ namespace _7zad
             {
                 if (value == 'm' || value == 'f' || value == 'M' || value == 'F')
                 {
-                    this.sex = value;
+                    sex = value;
                 }
                 else
                 {
                     Console.WriteLine("Invalid data!");
                 }
             }
-            get { return this.sex; }
+            get { return sex; }
         }
         public int Age
         {

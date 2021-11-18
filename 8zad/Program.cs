@@ -7,7 +7,13 @@ namespace _8zad
         static void Main(string[] args)
         {
             Rectangle shape = new();
-            shape.Name = "New";
+            shape.Width = int.Parse(Console.ReadLine());
+            shape.Height = int.Parse(Console.ReadLine());
+
+            shape.ShowInfo();
+            Console.WriteLine("Area = " + shape.CalcArea());
+            Console.WriteLine("Perimeter = " + shape.CalcPerimeter());
+
         }
     }
 }
