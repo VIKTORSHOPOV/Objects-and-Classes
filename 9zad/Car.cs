@@ -40,5 +40,10 @@ namespace _9zad
             }
         }
 
+        public string WhoAmI()
+        {
+            return $"Make: {Brand}\nModel: {Model}\nYear: {Year}\nFuel: {FuelQuantity:F2}";
+        }
+
     }
 }
