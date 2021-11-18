@@ -38,8 +38,8 @@ namespace _9zad
             {
                 Console.WriteLine("Not enough fuel to perform this trip!");
             }
-
-            public string WhoAmI()
+        }
+        public string WhoAmI()
         {
             return $"Make: {Brand}\nModel: {Model}\nYear: {Year}\nFuel: {FuelQuantity:F2}";
         }
