@@ -30,7 +30,7 @@ namespace _9zad
         }
         public void Drive(double distance)
         {
-            if (fuelQuantity > distance * fuelConsumption)
+            if (fuelQuantity - distance * fuelConsumption >= 0)
             {
                 fuelQuantity -= distance * fuelConsumption;
             }
@@ -38,9 +38,8 @@ namespace _9zad
             {
                 Console.WriteLine("Not enough fuel to perform this trip!");
             }
-        }
 
-        public string WhoAmI()
+            public string WhoAmI()
         {
             return $"Make: {Brand}\nModel: {Model}\nYear: {Year}\nFuel: {FuelQuantity:F2}";
         }
