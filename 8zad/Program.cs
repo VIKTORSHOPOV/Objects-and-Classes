@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Source: Trust me bro
+using System;
 
 namespace _8zad
 {
