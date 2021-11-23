@@ -18,7 +18,7 @@ namespace _13._2_zad
                 {
                     break;
                 }
-                string[] deposit = Console.ReadLine().Split();
+                string[] deposit = Console.ReadLine().Split(" ");
                 string depo = deposit[0];
                 decimal moneydepo = decimal.Parse(deposit[1]);
                 if (depo == "Deposit")
