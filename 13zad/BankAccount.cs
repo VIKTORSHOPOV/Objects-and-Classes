@@ -12,6 +12,10 @@ namespace _13zad
         public string AccountOwner { get; set; }
         public decimal AccountBalance { get; set; }
 
-
+        public void MakeDeposit(decimal cash)
+        {
+            AccountBalance += cash;
+            Console.WriteLine($"Account balance: {AccountBalance}");
+        }
     }
 }
