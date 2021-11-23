@@ -17,18 +17,5 @@ namespace _13zad
             AccountBalance += cash;
             Console.WriteLine($"Account balance: {AccountBalance}");
         }
-
-        public void MakeWithdraw(decimal cash)
-        {
-            if(AccountBalance >= cash)
-            {
-                AccountBalance -= cash;
-                Console.WriteLine($"Withdrawn funds: {cash}. Funds available on the account: {AccountBalance}");
-            }
-            else
-            {
-                Console.WriteLine($"Non-Sufficient Funds");
-            }
-        }
     }
 }
