@@ -1,4 +1,5 @@
 ﻿//Source: Trust me bro
+//No Diff
 using System;
 
 namespace _13zad
