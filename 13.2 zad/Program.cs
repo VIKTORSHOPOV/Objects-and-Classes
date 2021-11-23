@@ -6,7 +6,7 @@ namespace _13._2_zad
     {
         static void Main(string[] args)
         {
-            string[] arr = Console.ReadLine().Split();
+            string[] arr = Console.ReadLine().Split(" ");
             string number = arr[0];
             string name = arr[1] + " " + arr[2];
             decimal balance = decimal.Parse(arr[3]);
