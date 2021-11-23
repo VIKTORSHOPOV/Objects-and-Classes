@@ -8,7 +8,7 @@ namespace _13zad
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string[] array = Console.ReadLine().Split(" ");
         }
     }
 }
