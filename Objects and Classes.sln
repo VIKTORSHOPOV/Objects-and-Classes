@@ -19,11 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8zad", "8zad\8zad.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9zad", "9zad\9zad.csproj", "{1D5945C0-B807-4C3B-8D9F-F6C0BEFAED9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10zad", "10zad\10zad.csproj", "{9998CDC1-BF7F-49DD-8280-E9F7EE13A51D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10zad", "10zad\10zad.csproj", "{9998CDC1-BF7F-49DD-8280-E9F7EE13A51D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11zad", "11zad\11zad.csproj", "{72B43153-4C6E-4043-8BEC-CD73895F2972}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11zad", "11zad\11zad.csproj", "{72B43153-4C6E-4043-8BEC-CD73895F2972}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12zad", "12zad\12zad.csproj", "{B660FFF2-B3B6-4E4B-AA67-796EB5F97B3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12zad", "12zad\12zad.csproj", "{B660FFF2-B3B6-4E4B-AA67-796EB5F97B3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13zad", "13zad\13zad.csproj", "{DD48874F-9F39-4725-A393-FCDE1279F52D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{B660FFF2-B3B6-4E4B-AA67-796EB5F97B3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B660FFF2-B3B6-4E4B-AA67-796EB5F97B3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B660FFF2-B3B6-4E4B-AA67-796EB5F97B3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD48874F-9F39-4725-A393-FCDE1279F52D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD48874F-9F39-4725-A393-FCDE1279F52D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD48874F-9F39-4725-A393-FCDE1279F52D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD48874F-9F39-4725-A393-FCDE1279F52D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

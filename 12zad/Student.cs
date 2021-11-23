@@ -33,7 +33,7 @@ namespace _12zad
             spec = stud.spec;
             kurs = stud.kurs;
         }
-        public void print()
+        public void Print()
         {
             Console.Write($"{name}, {nomer}, {spec}, {kurs}");
         }
