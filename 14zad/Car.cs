@@ -8,18 +8,18 @@ namespace _14zad
 {
     class Car
     {
-        private string brand;
-        private string model;
-        private int year;
-        private int FuelQuantity;
-        private int FuelConsumption;
+        string brand;
+        string model;
+        int year;
+        int FuelQuantity;
+        int FuelConsumption;
         public Car()
         {
-            this.brand = "VW";
-            this.model = "Golf";
-            this.year = 2025;
-            this.FuelQuantity = 200;
-            this.FuelConsumption = 10;
+            brand = "VW";
+            model = "Golf";
+            year = 2025;
+            FuelQuantity = 200;
+            FuelConsumption = 10;
 
         }
         public Car(string brand, string model, int year) : this()
