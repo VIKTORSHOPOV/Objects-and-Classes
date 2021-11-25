@@ -24,6 +24,18 @@ namespace _1Book
 
             Console.WriteLine(book1.Year > book2.Year ? book2.CalcAll() : book1.CalcAll());
 
+            if (book1.Count > book2.Count)
+            {
+                Book book3 = new Book(book1);
+                book3.WriteBook();
+            }
+            else
+            {
+                Book book3 = new Book(book2);
+                book3.WriteBook();
+            }
+
+
         }
     }
 }
