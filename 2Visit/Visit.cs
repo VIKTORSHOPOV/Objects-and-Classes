@@ -32,5 +32,15 @@ namespace _2Visit
             nameOfWeb = "";
         }
 
+        public Visit(string date, string time, int dayOfTheWeek, int quantity, double stay, string nameOfWeb)
+        {
+            this.date = date;
+            this.time = time;
+            this.dayOfTheWeek = dayOfTheWeek;
+            this.quantity = quantity;
+            this.stay = stay;
+            this.nameOfWeb = nameOfWeb;
+        }
+
     }
 }
