@@ -33,6 +33,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15zad", "15zad\15zad.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1Book", "1Book\1Book.csproj", "{F93806BC-72E2-4F99-8439-B054ABCCCEE3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2Visit", "2Visit\2Visit.csproj", "{13F78107-F47C-44C2-A16A-13729C055527}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{F93806BC-72E2-4F99-8439-B054ABCCCEE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F93806BC-72E2-4F99-8439-B054ABCCCEE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F93806BC-72E2-4F99-8439-B054ABCCCEE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13F78107-F47C-44C2-A16A-13729C055527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13F78107-F47C-44C2-A16A-13729C055527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13F78107-F47C-44C2-A16A-13729C055527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13F78107-F47C-44C2-A16A-13729C055527}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
