@@ -27,9 +27,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12zad", "12zad\12zad.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13.2 zad", "13.2 zad\13.2 zad.csproj", "{89D1F2DD-87C2-4FAC-AA03-6145936248E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14zad", "14zad\14zad.csproj", "{F5FBAB9E-FD75-41A4-8E90-6CE696B278AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14zad", "14zad\14zad.csproj", "{F5FBAB9E-FD75-41A4-8E90-6CE696B278AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15zad", "15zad\15zad.csproj", "{B6947C8A-0169-4CC5-817E-065DA2CE11A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15zad", "15zad\15zad.csproj", "{B6947C8A-0169-4CC5-817E-065DA2CE11A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1Book", "1Book\1Book.csproj", "{F93806BC-72E2-4F99-8439-B054ABCCCEE3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{B6947C8A-0169-4CC5-817E-065DA2CE11A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6947C8A-0169-4CC5-817E-065DA2CE11A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6947C8A-0169-4CC5-817E-065DA2CE11A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F93806BC-72E2-4F99-8439-B054ABCCCEE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F93806BC-72E2-4F99-8439-B054ABCCCEE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F93806BC-72E2-4F99-8439-B054ABCCCEE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F93806BC-72E2-4F99-8439-B054ABCCCEE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
