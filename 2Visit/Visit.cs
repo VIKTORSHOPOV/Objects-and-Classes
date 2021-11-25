@@ -18,7 +18,19 @@ namespace _2Visit
         public string Date { get; set; }
         public string Time { get; set; }
         public int DayOfTheWeek { get { return dayOfTheWeek; } set { if (value > 0 && value < 8) dayOfTheWeek = value; } }
-        public int Quantity { get; set; }
+        public int Quantity { get { return quantity; } set { if (value! < 0) quantity = value; } }
+        public double Stay { get { return stay; } set { if (value! < 0) stay = value; } }
+        public string NameOfWeb { get; set; }
+
+        public Visit()
+        {
+            date = "";
+            time = "";
+            dayOfTheWeek = 0;
+            quantity = 0;
+            stay = 0;
+            nameOfWeb = "";
+        }
 
     }
 }
