@@ -22,7 +22,7 @@ namespace _4Pet
 
         public Pet()
         {
-            nameOfPet = "";
+            NameOfPet = "";
             type = "";
             ageInMonths = 0;
             nameOfOwner = "";
@@ -31,7 +31,7 @@ namespace _4Pet
 
         public Pet(string nameOfPet, string type, int ageInMonths, string nameOfOwner, string vaccinated)
         {
-            this.nameOfPet = nameOfPet;
+            this.NameOfPet = nameOfPet;
             this.type = type;
             this.ageInMonths = ageInMonths;
             this.nameOfOwner = nameOfOwner;
@@ -40,7 +40,7 @@ namespace _4Pet
 
         public Pet(Pet p)
         {
-            nameOfPet = p.nameOfPet;
+            NameOfPet = p.nameOfPet;
             type = p.type;
             ageInMonths = p.ageInMonths;
             nameOfOwner = p.nameOfOwner;
@@ -50,8 +50,8 @@ namespace _4Pet
         public void MyPetInfo()
         {
             Console.WriteLine((vaccinated == "Yes") ? 
-                $"{NameOfPet} – {ageInMonths}, {ageInMonths / 12} {ageInMonths % 12} (в години и месеци), {nameOfOwner}, vaccinated":
-                $"{NameOfPet} – {ageInMonths}, {ageInMonths / 12} {ageInMonths % 12} (в години и месеци), {nameOfOwner}, unvaccinated");
+                $"{NameOfPet} – {ageInMonths}, {ageInMonths / 12} {ageInMonths % 12}, {nameOfOwner}, vaccinated":
+                $"{NameOfPet} – {ageInMonths}, {ageInMonths / 12} {ageInMonths % 12}, {nameOfOwner}, unvaccinated");
         }
 
         public int CalcDiff(Pet p)
