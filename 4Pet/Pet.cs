@@ -8,7 +8,10 @@ namespace _4Pet
 {
     class Pet
     {
+        string nameOfPet;
+        string type;
         int ageInMonths;
+        string nameOfOwner;
         string vaccinated; //(Yes/No)
 
         public string NameOfPet { get; set; }
