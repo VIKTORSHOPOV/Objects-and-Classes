@@ -37,5 +37,30 @@ namespace _4Pet
             this.nameOfOwner = nameOfOwner;
             this.vaccinated = vaccinated;
         }
+
+        public Pet(Pet p)
+        {
+            nameOfPet = p.nameOfPet;
+            type = p.type;
+            ageInMonths = p.ageInMonths;
+            nameOfOwner = p.nameOfOwner;
+            vaccinated = p.vaccinated;
+        }
+
+        public void MyPetInfo()
+        {
+            Console.WriteLine((vaccinated == "Yes") ? 
+                $"{NameOfPet} – {ageInMonths}, {ageInMonths / 12} {ageInMonths % 12} (в години и месеци), {nameOfOwner}, vaccinated":
+                $"{NameOfPet} – {ageInMonths}, {ageInMonths / 12} {ageInMonths % 12} (в години и месеци), {nameOfOwner}, unvaccinated");
+        }
+
+        public int CalcDiff(Pet p)
+        {
+            if(this.type == p.type)
+            {
+                return Math.Abs(this.ageInMonths - p.ageInMonths);
+            }
+            return 0;
+        }
     }
 }
