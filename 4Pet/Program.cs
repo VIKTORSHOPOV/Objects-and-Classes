@@ -33,6 +33,11 @@ namespace _4Pet
                     Console.WriteLine($"{p2.NameOfPet} is {p1.CalcDiff(p2)} months older than {p1.NameOfOwner}");
                 }
             }
+
+            if (p1.NameOfOwner == p2.NameOfOwner)
+            {
+                Console.WriteLine($"Average age of {p1.NameOfOwner}'s pets – {(double)(p1.AgeInMonths + p2.AgeInMonths) / 2} months");
+            }
         }
     }
 }
