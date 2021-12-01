@@ -14,5 +14,7 @@ namespace _1zad
             myCar.YearProduced = 2020;
             Console.Write($"{myCar.Brand}, {myCar.Model}, {myCar.EngineVolume}, {myCar.YearProduced}");
         }
+
+
     }
 }
