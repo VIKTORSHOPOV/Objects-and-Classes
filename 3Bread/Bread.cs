@@ -72,7 +72,7 @@ namespace _3Bread
 
         public void ProductInfo()
         {
-            Console.WriteLine($"{BreadName}, {weight:F3}, {FlourType} , supplements {percent * 100}%, {price} lv");
+            Console.WriteLine($"{BreadName}, {weight:F3}, {FlourType} , supplements {percent * 1}%, {price} lv");
         }
 
         public double ValueOfProducts()
@@ -82,7 +82,21 @@ namespace _3Bread
 
         public int ComparePrice(Bread b)
         {
-            if (weight == b.weight)
+
+            if (price < b.price)
+            {
+                return -1;
+            }
+            else if (price == b.price)
+            {
+                return 0;
+            }
+            else
+            {
+                return 1;
+            }
+
+
         }
 
 
